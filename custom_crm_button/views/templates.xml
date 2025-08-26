@@ -1,0 +1,8 @@
+<odoo>
+    <template id="assets_backend" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/custom_crm_button/static/src/js/crm_list_button.js"/>
+            <script type="text/javascript" src="/custom_crm_button/static/src/js/crm_groupby_stage_dropdown.js"/>
+        </xpath>
+    </template>
+</odoo>

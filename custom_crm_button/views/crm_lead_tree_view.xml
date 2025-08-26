@@ -1,0 +1,14 @@
+<odoo>
+    <data>
+        <record id="view_crm_lead_tree_multi_filter" model="ir.ui.view">
+            <field name="name">crm.lead.tree.multi.filter</field>
+            <field name="model">crm.lead</field>
+            <field name="inherit_id" ref="crm.crm_case_tree_view_oppor"/>
+            <field name="arch" type="xml">
+                <xpath expr="//tree" position="attributes">
+                    <attribute name="js_class">multi_filter_list_view</attribute>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
